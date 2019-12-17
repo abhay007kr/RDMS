@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No of Driver"
+        android:layout_margin="20dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLease wait..."
+        android:layout_margin="20dp"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:id="@+id/number_of_drivers"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book"
+            android:textSize="40sp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/book"
+            />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vacate"
+        android:textSize="40sp"
+        android:id="@+id/vacate"
+        android:layout_marginLeft="30dp"
+        />
+</LinearLayout>
+
+</LinearLayout>
